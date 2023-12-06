@@ -1,0 +1,231 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  /* Header styles */
+  header {
+    background-image: url('/ck257.jpg'); 
+    background-size: 113px;
+
+    background-repeat: no-repeat;
+    background-color: black;
+    
+    color: #fff;
+    text-align: center;
+    padding: 20px ;
+    
+
+    
+  }
+  .highlight-name {
+    font-weight: bold; /* Make the name bold */
+    font-family: 'Arial', sans-serif;
+    font-style: italic; 
+    color: blueviolet;/* Apply a different font */
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  .header {
+    background-image: url('/ck257.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .header h1 {
+    color: initial; /* Reset the color property */
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  nav ul li a:hover {
+    color: red; /* Change the color on hover */
+  }
+  body {
+    margin: 0; /* Reset default margin */
+    font-family: Arial, sans-serif; /* Example font-family */
+  
+    /* Optional: Apply styles to the whole body if needed */
+  }
+
+  #about {
+    padding: 0 20px; /* Add space to the sides of the #about section */
+  }
+  
+  .about-box {
+    border: 5px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  
+  .about-content {
+    /* Additional styles for the content inside the box if needed */
+  }
+  
+  .highlight-name {
+    font-weight: bold; /* Make the name bold */
+  }
+  
+  strong {
+    font-style: italic; /* Apply italic style to strong elements */
+  }
+  
+  .name-letter {
+    display: inline-block;
+    transition: color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  /* Skills section styles */
+  .skills-box {
+    border: 5px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    background-color:gainsboro;
+  }
+  
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-box {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .skill-box::after {
+    content: attr(data-details);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+   
+    background-color: white;
+    color: black;
+    padding: 15px; /* Increased padding */
+    border-radius: 5px;
+    width: 500%; /* 5 times larger */
+    height: 500%; /* 5 times larger */
+    text-align: center;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    transform-origin: center bottom;
+  }
+  
+  .skill-box:hover::after {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Projects section styles */
+  .projects-box {
+    border: 5px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: azure;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    margin-bottom: 8px;
+  }
+ 
+  
+  
+
+  
+  .contact-box {
+    border: 5px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center; /* Center-align the content */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    background-color: rgb(223, 224, 224);
+  }
+  
+  .contact-content {
+    margin-top: 15px;
+    /* Additional styles for the contact content if needed */
+  }
+  
+  .contact-content p {
+    margin-bottom: 10px;
+  }
+  .footer-box {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for better visibility */
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  
+  
